@@ -8,8 +8,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 
 add_definitions(-DSFML_STATIC)
 
-include_directories("ext32/SFML/include/")
-link_directories("ext32/SFML/lib/")
+include_directories("include/")
+link_directories("lib/")
 include_directories(headers sources resource)
 
 add_executable(EngProgramm
